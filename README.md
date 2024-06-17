@@ -1,16 +1,28 @@
 # invoice_management
 
-A new Flutter project.
+
+> An invoice manager
+
+
+- [invoice\_management](#invoice_management)
+  - [Core features](#core-features)
+  - [Getting Started](#getting-started)
+  - [Running tests](#running-tests)
+
+
+## Core features
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Clone the repo, install the required dependencies and run the app:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run -d chrome
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Running tests
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter test
+```
