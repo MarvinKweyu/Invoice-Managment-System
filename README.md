@@ -2,6 +2,9 @@
 
 > Retail invoice management made easy
 
+[![Flutter Version](https://img.shields.io/badge/Codebase-Flutter_v3-blue?logo=flutter)](https://flutter.dev/)
+[![Bloc Version](https://img.shields.io/badge/State_Manager-Flutter_bloc-blue)](https://bloclibrary.dev/)
+
 
 MoneyUp is a retail invoice management prototype.
 
