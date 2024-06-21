@@ -1,10 +1,11 @@
-# invoice_management
+# MoneyUp
+
+> Retail invoice management made easy
 
 
-> An invoice manager
+MoneyUp is a retail invoice management prototype.
 
-
-- [invoice\_management](#invoice_management)
+- [MoneyUp](#moneyup)
   - [Core features](#core-features)
   - [Preview](#preview)
     - [Main page](#main-page)
