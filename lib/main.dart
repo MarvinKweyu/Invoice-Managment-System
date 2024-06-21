@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
           ),
         ],
         child: MaterialApp.router(
-          title: 'Invoice Manager',
+          title: 'MoneyUp Invoice Manager',
           debugShowCheckedModeBanner: false,
           routerConfig: router,
           theme: ThemeData(

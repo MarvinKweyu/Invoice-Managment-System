@@ -15,7 +15,7 @@ class SideMenu extends StatelessWidget {
           DrawerHeader(
             // ToDo: change to image
             // child: Text('Invoice Manager', style: TextStyle(fontSize: 24)),
-            child: Image.asset('assets/images/invest.jpg'),
+            child: Image.asset('assets/images/moneyup.png'),
           ),
           DrawerListTile(
             title: "Dashboard",
