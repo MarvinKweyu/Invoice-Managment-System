@@ -6,6 +6,10 @@ import 'package:invoice_management/utils.dart';
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart';
 
+/*
+Thought: Have this accept params for invoice generation for org detail
+*/
+
 class PdfInvoiceApi {
   Future<Uint8List> generate(ExtendedInvoiceModel invoice) async {
     final pdf = Document();

@@ -13,8 +13,9 @@ MoneyUp is a retail invoice management prototype.
   - [Preview](#preview)
     - [Main page](#main-page)
     - [Invoice information](#invoice-information)
-  - [Getting Started](#getting-started)
-  - [Running tests](#running-tests)
+  - [Development](#development)
+    - [Getting Started](#getting-started)
+    - [Running tests](#running-tests)
 
 
 ## Core features
@@ -35,7 +36,9 @@ MoneyUp is a retail invoice management prototype.
 
 > An export of the invoice generated can be found in the preview folder.
 
-## Getting Started
+## Development
+
+### Getting Started
 
 Clone the repo, install the required dependencies and run the app:
 
@@ -44,7 +47,7 @@ flutter pub get
 flutter run -d chrome
 ```
 
-## Running tests
+### Running tests
 
 ```
 flutter test
