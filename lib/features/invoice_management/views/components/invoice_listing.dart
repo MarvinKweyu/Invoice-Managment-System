@@ -78,10 +78,6 @@ class _InvoiceListingState extends State<InvoiceListing> {
         );
       }
 
-      print("\n\n\n\n the result of a print of state");
-      print(state.status);
-      print("\n\n What is here");
-
       return const Center(child: Text('No invoices found.'));
     });
   }
