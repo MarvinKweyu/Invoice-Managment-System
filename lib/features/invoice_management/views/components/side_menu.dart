@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'package:go_router/go_router.dart';
+import 'package:invoice_management/features/invoice_management/bloc/invoice_bloc.dart';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
@@ -21,6 +23,7 @@ class SideMenu extends StatelessWidget {
             title: "Dashboard",
             icon: Icons.home,
             press: () {
+              context.read<InvoiceBloc>().add(InvoiceStarted());
               context.go('/');
             },
           ),

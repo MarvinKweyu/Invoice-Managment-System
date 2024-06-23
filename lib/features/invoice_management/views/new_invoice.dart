@@ -441,6 +441,7 @@ class _NewInvoiceState extends State<NewInvoice> {
         }
       }
 
+      // ignore: unused_local_variable
       for (var map in _invoiceItems) {
         for (var map in _invoiceItems) {
           if (map["id"] == key) {

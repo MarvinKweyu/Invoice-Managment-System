@@ -6,7 +6,6 @@ import 'package:invoice_management/core/utils.dart';
 import 'package:invoice_management/features/invoice_management/bloc/invoice_bloc.dart';
 import 'package:invoice_management/features/invoice_management/models/extended_invoice_model.dart';
 
-
 class InvoiceListing extends StatefulWidget {
   const InvoiceListing({
     super.key,
@@ -78,6 +77,10 @@ class _InvoiceListingState extends State<InvoiceListing> {
           ),
         );
       }
+
+      print("\n\n\n\n the result of a print of state");
+      print(state.status);
+      print("\n\n What is here");
 
       return const Center(child: Text('No invoices found.'));
     });
