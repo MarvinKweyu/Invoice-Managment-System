@@ -1,8 +1,9 @@
 import 'package:go_router/go_router.dart';
-import 'package:invoice_management/pages/dashboard_container.dart';
-import 'package:invoice_management/pages/home.dart';
-import 'package:invoice_management/pages/invoice_info.dart';
-import 'package:invoice_management/pages/new_invoice.dart';
+import 'package:invoice_management/features/invoice_management/views/dashboard_container.dart';
+import 'package:invoice_management/features/invoice_management/views/home.dart';
+import 'package:invoice_management/features/invoice_management/views/invoice_info.dart';
+import 'package:invoice_management/features/invoice_management/views/new_invoice.dart';
+
 
 final GoRouter router = GoRouter(
   initialLocation: '/',

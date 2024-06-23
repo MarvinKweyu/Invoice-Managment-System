@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:invoice_management/controllers/MenuAppController.dart';
-import 'package:invoice_management/pages/components/side_menu.dart';
-import 'package:invoice_management/responsive.dart';
+import 'package:invoice_management/core/menu_app_controller.dart';
+import 'package:invoice_management/core/responsive.dart';
+import 'package:invoice_management/features/invoice_management/views/components/side_menu.dart';
 import 'package:provider/provider.dart';
 
 class DashboardContainer extends StatelessWidget {

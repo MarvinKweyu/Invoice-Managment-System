@@ -1,7 +1,8 @@
 import 'package:flutter/foundation.dart';
-import 'package:invoice_management/models/customer_model.dart';
-import 'package:invoice_management/models/extended_invoice_model.dart';
-import 'package:invoice_management/utils.dart';
+import 'package:invoice_management/core/utils.dart';
+import 'package:invoice_management/features/invoice_management/models/customer_model.dart';
+import 'package:invoice_management/features/invoice_management/models/extended_invoice_model.dart';
+
 
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart';

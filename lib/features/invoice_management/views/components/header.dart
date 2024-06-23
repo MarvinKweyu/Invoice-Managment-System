@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:invoice_management/constants.dart';
-import 'package:invoice_management/controllers/MenuAppController.dart';
-import 'package:invoice_management/responsive.dart';
+import 'package:invoice_management/core/constants.dart';
+import 'package:invoice_management/core/menu_app_controller.dart';
+import 'package:invoice_management/core/responsive.dart';
+
 import 'package:provider/provider.dart';
 
 class Header extends StatelessWidget {

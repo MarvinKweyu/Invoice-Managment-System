@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:invoice_management/constants.dart';
-import 'package:invoice_management/pages/components/header.dart';
 
-import 'package:invoice_management/pages/components/invoice_listing.dart';
-import 'package:invoice_management/responsive.dart';
 import 'dart:developer' as devtools show log;
+
+import 'package:invoice_management/core/constants.dart';
+import 'package:invoice_management/core/responsive.dart';
+import 'package:invoice_management/features/invoice_management/views/components/header.dart';
+import 'package:invoice_management/features/invoice_management/views/components/invoice_listing.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});

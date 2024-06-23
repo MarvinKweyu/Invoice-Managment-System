@@ -1,9 +1,8 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
+
 
 import 'package:flutter/foundation.dart';
-
-import 'package:invoice_management/models/customer_model.dart';
-import 'package:invoice_management/models/invoice_item_model.dart';
+import 'package:invoice_management/features/invoice_management/models/customer_model.dart';
+import 'package:invoice_management/features/invoice_management/models/invoice_item_model.dart';
 
 class ExtendedInvoiceModel {
   String id;

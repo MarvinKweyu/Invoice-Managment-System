@@ -2,14 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
+import 'package:invoice_management/core/constants.dart';
+import 'package:invoice_management/core/responsive.dart';
 
-import 'package:invoice_management/bloc/invoice_bloc.dart';
-import 'package:invoice_management/constants.dart';
-import 'package:invoice_management/models/customer_model.dart';
-import 'package:invoice_management/models/extended_invoice_model.dart';
-import 'package:invoice_management/models/invoice_item_model.dart';
-import 'package:invoice_management/models/invoice_model.dart';
-import 'package:invoice_management/responsive.dart';
+import 'package:invoice_management/features/invoice_management/bloc/invoice_bloc.dart';
+import 'package:invoice_management/features/invoice_management/models/customer_model.dart';
+import 'package:invoice_management/features/invoice_management/models/extended_invoice_model.dart';
+import 'package:invoice_management/features/invoice_management/models/invoice_item_model.dart';
+import 'package:invoice_management/features/invoice_management/models/invoice_model.dart';
+
 
 import 'dart:developer' as devtools show log;
 

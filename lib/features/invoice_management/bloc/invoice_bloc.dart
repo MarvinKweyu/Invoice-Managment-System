@@ -1,10 +1,13 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
-import 'package:invoice_management/models/extended_invoice_model.dart';
+
 import 'dart:developer' as devtools show log;
 
-import 'package:invoice_management/services/pdf_generator.dart';
+import 'package:invoice_management/features/invoice_management/models/extended_invoice_model.dart';
+import 'package:invoice_management/features/invoice_management/services/pdf_generator.dart';
+
+
 
 part 'invoice_event.dart';
 part 'invoice_state.dart';
